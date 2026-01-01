@@ -1,7 +1,8 @@
 {
   "eslint.validate": ["javascript", "typescript", "html"],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
   },
   "editor.formatOnSave": false,
   "[javascript]": {
@@ -15,5 +16,8 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
-  }
+  },
+  "stylelint.validate": ["css", "scss"],
+  "css.validate": false,
+  "scss.validate": false
 }
